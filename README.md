@@ -11,12 +11,4 @@ This project is a fitness gamification website that allows users to register and
 2. Move `league_of_fitness` folder into `C:\xampp\htdocs`
 3. Start Apache and MySQL from XAMPP
 4. Go to http://localhost/phpmyadmin
-   - Create database: `league_of_fitness`
-   - Run the following SQL:
-   ```sql
-   CREATE TABLE users (
-       id INT AUTO_INCREMENT PRIMARY KEY,
-       name VARCHAR(100),
-       email VARCHAR(100) UNIQUE,
-       password VARCHAR(255)
-   );
+ 
